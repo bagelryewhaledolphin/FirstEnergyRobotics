@@ -6,28 +6,31 @@
     <meta charset="UTF-8">
     <title>FirstEnergy Robotics</title>
     <link rel="stylesheet" href="style.css">
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#footer").load("footer.html"); 
+    });
+    </script>
   </head>
 
   <body>
 
-    <br>
-    <center><header><nav>
-    <br>
-    
-    <img src="images/logo.png" alt="Logo" style="width:80%;">
-      
-    <a href="about.html" class="btn btn-outline-dark"> About us </a>
-    <a href="story.html" class="btn btn-outline-dark"> Our story </a>
-
-    <br>
-    </nav></header></center>
-    <br>
+    <div id="header"></div>
       
     <h1>FirstEnergy Robotics</h1>
 
     <h2>Bringing robotics to energy. Wait...</h2>
     
     <br>
+
+    <div id="footer"></div>
     
   </body>
   
