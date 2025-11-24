@@ -1,3 +1,42 @@
+
+/* COLOR PALETTE: */
+
+/*
+
+All colors are lighter on top to darker at the bottom
+
+White:
+          #FFFFFF
+
+Grays:
+          #F3F3F3    <-- lighter
+          #EEEEEE
+          #DDDDDD    <-- darker
+
+Blue:  
+          #A0D2FF
+          #53ADFF
+          #0088FF
+
+Green:
+          #91F8D3
+          #45DFA7
+          #00BF7A
+
+Magenta:
+          #F8CFFF
+          #F3A7FF
+          #ED7BFF
+
+Orange:
+          #FFC39D
+          #FF9A5A
+          #FF8033
+
+*/
+
+
+
 *,
 ::before,
 *::after {
@@ -45,14 +84,14 @@ nav {
   user-select: none;
   cursor: pointer;
   margin: 0 30px;
-  border: 2px solid #f2c75c;
+  border: 2px solid #F3F3F3;
   overflow: hidden;
 }
 
 .item a {
   font-size: 16px;
   text-transform: uppercase;
-  color: #f2c75c;
+  color: #F3F3F3;
   z-index: 10;
   text-decoration: none;
   transition: color 200ms ease;
@@ -68,7 +107,7 @@ nav {
   width: 0%;
   height: 100%;
   transform: skew(30deg);
-  background: #f2c75c;
+  background: #F3F3F3;
   transition: width 400ms ease;
 }
 
