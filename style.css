@@ -3,9 +3,35 @@
 
 /*
 
-White: #FFFFFF
-Gray:  #F2F2F2
-Green: #7CDE7C
+All colors are lighter on top to darker at the bottom
+
+White:
+          #FFFFFF
+
+Grays:
+          #F3F3F3    <-- lighter
+          #EEEEEE
+          #DDDDDD    <-- darker
+
+Blue:  
+          #A0D2FF
+          #53ADFF
+          #0088FF
+
+Green:
+          #91F8D3
+          #45DFA7
+          #00BF7A
+
+Magenta:
+          #F8CFFF
+          #F3A7FF
+          #ED7BFF
+
+Orange:
+          #FFC39D
+          #FF9A5A
+          #FF8033
 
 */
 
