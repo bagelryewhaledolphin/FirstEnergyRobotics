@@ -45,13 +45,13 @@ Orange:
   box-sizing: border-box;
 }
 
-.container {
+/* .container {
   width: 100vw;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 nav {
   display: flex;
